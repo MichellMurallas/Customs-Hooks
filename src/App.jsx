@@ -1,10 +1,11 @@
-import PruebasCuntoms from "./Components/PruebasCuntoms"
+import MiFormulario from "./Components/MiFormulario"
+
 
 function App() {
   
   return (
     <div className="App"> 
-    <PruebasCuntoms />
+    <MiFormulario />
     </div>
   )
 }
