@@ -1,10 +1,18 @@
 export const useMayus = (texto) =>{
 
-  const mayusculas = () =>{
-    console.log(texto)
+  const mayusculas = (valor = "") =>{
+    return texto.toUpperCase();
+  }
+  const minusculas = (valor = "") =>{
+    return texto.toLowerCase();
+  }
+  const concatenar = (added) =>{
+    return texto+added;
   }
 
   return{
-    mayusculas
+    mayusculas,
+    minusculas,
+    concatenar
   }
 }
