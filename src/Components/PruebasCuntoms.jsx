@@ -1,12 +1,18 @@
-import React from 'react'
+
 import { useMayus } from './useMayus';
 
 const PruebasCuntoms = () => {
-  const {mayusculas, minusculas, concatenar} = useMayus("Miguel Quintero")
-  console.log(mayusculas("hola")) 
+
+  const {estado, mayusculas, minusculas, concatenar} = useMayus("Michll Murallas")
+
   return (
     <div>
-      <h1>Prebas cuntoms</h1>
+      <h1>Pruebas cuntoms</h1>
+      {estado}
+
+      <button onClick={mayusculas} > Poner en mayusculas</button>
+      <button onClick={minusculas} > Poner en mayusculas</button>
+      <button onClick={ e => concatenar (" probando hooks")} > Poner en mayusculas</button>
     </div>
   )
 }
