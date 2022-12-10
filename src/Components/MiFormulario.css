@@ -24,3 +24,9 @@
 .codigo{
   font-size: 18px;
 }
+
+.enviado{
+background-color: green;
+color: white;
+padding: 5px;
+}
