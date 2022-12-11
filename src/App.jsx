@@ -1,13 +1,14 @@
-import MiFormulario from "./Components/MiFormulario"
+import MiUsuario from "./Components/PeticionesAjax/MiUsuario"
 
 
-function App() {
+ function App() {
   
   return (
     <div className="App"> 
-    <MiFormulario />
+    <MiUsuario />
     </div>
   )
 }
 
 export default App
+
