@@ -25,7 +25,7 @@ return (
 
 export default MiUsuario
 
-
+// Notas para el repositorio:
 
 
 
